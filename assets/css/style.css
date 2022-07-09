@@ -346,15 +346,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero:before {
-/*   content: "";
-  background: var(--secondary-color);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-} */
 
     content: "";
     /* background: var(--secondary-color); */
