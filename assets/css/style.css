@@ -346,7 +346,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero:before {
-  content: "";
+/*   content: "";
   background: var(--secondary-color);
   position: absolute;
   bottom: 0;
@@ -354,7 +354,22 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   right: 0;
   z-index: 1;
+} */
+
+    content: "";
+    /* background: var(--secondary-color); */
+    background: url(https://img.freepik.com/free-vector/web-development-isometric-concept-infographics-composition-with-platforms-text-captions-people-characters-icons-screens-illustration_1284-60242.jpg?t=st=1657349652~exp=1657350252~hmac=c9613cb…&w=1800);
+    position: absolute;
+    bottom: 0;
+    background-repeat: no-repeat;
+    top: 0;
+    background-size: cover;
+    opacity: .5;
+    left: 0;
+    right: 0;
+    z-index: 1;
 }
+
 
 #hero .hero-container {
   position: relative;
